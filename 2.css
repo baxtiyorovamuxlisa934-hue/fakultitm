@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    margin-top: 20px;
+    color: #0b3d91;
+}
+
+hr {
+    width: 60%;
+    margin: 10px auto;
+    border: 2px solid #0b3d91;
+
+}
+
+.salom {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+ul, ol {
+    width: 80%;
+    margin: 10px auto;
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+p {
+    width: 85%;
+    margin: 15px auto;
+    text-align: justify;
+}
+
+ /* {
+    text-decoration: none;
+    color: white;
+    background: #0b3d91;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s; */
+
+
+a:hover {
+    background: #062a63;
+}
+
+table {
+    margin: 20px auto;
+    width: 300px;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #0b3d91;
+    color: white;
+}
+
+/* Dekan rasmi uchun */
+img[alt="rasm"] {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Fakultet bo‘limini ajratish */
+section {
+    background: white;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
